@@ -248,8 +248,14 @@ h3{
 }
 .title{
     font-weight: 300;
+    text-align: center;
+    text-decoration: none;
 }
 .star{
     text-align:center;
     
+}
+.link{
+    text-decoration: none;
+    text-align: center;
 }
