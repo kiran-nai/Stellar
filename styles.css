@@ -130,8 +130,11 @@ nav .fa{
 width:80%;
 margin: auto;
 text-align: center;
-padding-top: 100px; 
+padding-top: 100px;
+color: #fff;
+
 }
+
 h1{
     font-size: 36px;
     font-weight: 600;
@@ -148,6 +151,11 @@ p{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    color: #fff;
+}
+.row:visited{
+    color: white;
+    padding: 15px;
 }
 .Starsign{
     flex-basis: 31%;
@@ -183,15 +191,19 @@ h3{
 }
 .course{
     flex-basis: 32%;
+    color: #fff;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+
+    
 }
 .course img{
     width: 100%
 }
 .layer{
+    color: #fff;
     background: transparent;
     height:100%;
     width: 200%;
@@ -199,15 +211,23 @@ h3{
     top: 0;
     left: 0;
     transition: 0.5s;
+
 }
 .layer:hover{
     background: rgba(225,173,1,0.7);
+    
+}
+.white{
+    text-decoration: none
+    color: #fff;
+    font-size: 15px;
+    
 }
 .layer h3{
     width: 100%;
     font-weight: 500;
     color: #fff;
-    font-size: 26px;
+    font-size: 12px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -216,12 +236,15 @@ h3{
     text-align: left;
     opacity: 0;
     transition: 1s;
+    text-decoration: none;
 }
 .layer:hover h3{
     bottom: 49%;
     opacity: 1;
+    color: #fff;
     
 }
+
 .footer{
     width:100%;
     text-align: center;
@@ -257,5 +280,8 @@ h3{
 }
 .link{
     text-decoration: none;
+    text-align: center;
+}
+.speech{
     text-align: center;
 }
